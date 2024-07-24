@@ -31,12 +31,11 @@ Demo will be available soon.
 
 ## Technologies Used
 
-1. CreateML - Version 5.0
-2. Xcode - Version 15.0
+1. Xcode - Version 15.0
    - ARKit - Version 6
    - RealityKit - Version 2
-3. iOS Capable Device (iPhone) - iPhone 13 Max Pro
-4. iOS Verion 17.3.1
+2. iOS Capable Device (iPhone) - iPhone 13 Max Pro
+3. iOS Verion 17.3.1
 
 ## Pre-Requisites to Running App Locally
 
