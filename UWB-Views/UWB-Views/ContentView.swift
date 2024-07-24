@@ -207,6 +207,7 @@ struct ARViewContainer: UIViewRepresentable {
       
    }
    
+   // Create a fact in AR to anchor and display to user
    func createARFact(text: String, color: Color) -> Entity {
       // Generate AR text
       let mesh = MeshResource.generateText(

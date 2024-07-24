@@ -12,7 +12,6 @@
 		FD9896012C4DC058002A9E1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD9896002C4DC058002A9E1A /* Preview Assets.xcassets */; };
 		FD9896082C4DC083002A9E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9896072C4DC083002A9E1A /* LaunchScreen.storyboard */; };
 		FD98960A2C4DC088002A9E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9896092C4DC088002A9E1A /* AppDelegate.swift */; };
-		FD98960C2C4DC0A5002A9E1A /* MySceneLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98960B2C4DC0A5002A9E1A /* MySceneLoader.swift */; };
 		FD9896112C4DC0B9002A9E1A /* LoadingScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD9896102C4DC0B9002A9E1A /* LoadingScreen.jpg */; };
 		FD9896152C4DC0F1002A9E1A /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = FD9896142C4DC0F1002A9E1A /* GoogleGenerativeAI */; };
 /* End PBXBuildFile section */
@@ -24,10 +23,6 @@
 		FD9896002C4DC058002A9E1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD9896072C4DC083002A9E1A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD9896092C4DC088002A9E1A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../CSS599/Views/FrontEnd/ViewsAR/ViewsAR/AppDelegate.swift; sourceTree = "<group>"; };
-		FD98960B2C4DC0A5002A9E1A /* MySceneLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySceneLoader.swift; sourceTree = "<group>"; };
-		FD98960D2C4DC0AF002A9E1A /* NewProject2.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewProject2.reality; sourceTree = "<group>"; };
-		FD98960E2C4DC0AF002A9E1A /* NewProject3.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewProject3.reality; sourceTree = "<group>"; };
-		FD98960F2C4DC0B4002A9E1A /* InfoDot.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = InfoDot.reality; sourceTree = "<group>"; };
 		FD9896102C4DC0B9002A9E1A /* LoadingScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoadingScreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,10 +60,6 @@
 				FD9896072C4DC083002A9E1A /* LaunchScreen.storyboard */,
 				FD9896092C4DC088002A9E1A /* AppDelegate.swift */,
 				FD9895FB2C4DC057002A9E1A /* ContentView.swift */,
-				FD98960B2C4DC0A5002A9E1A /* MySceneLoader.swift */,
-				FD98960F2C4DC0B4002A9E1A /* InfoDot.reality */,
-				FD98960D2C4DC0AF002A9E1A /* NewProject2.reality */,
-				FD98960E2C4DC0AF002A9E1A /* NewProject3.reality */,
 				FD9895FD2C4DC058002A9E1A /* Assets.xcassets */,
 				FD9896102C4DC0B9002A9E1A /* LoadingScreen.jpg */,
 				FD9895FF2C4DC058002A9E1A /* Preview Content */,
@@ -162,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD98960C2C4DC0A5002A9E1A /* MySceneLoader.swift in Sources */,
 				FD98960A2C4DC088002A9E1A /* AppDelegate.swift in Sources */,
 				FD9895FC2C4DC057002A9E1A /* ContentView.swift in Sources */,
 			);
