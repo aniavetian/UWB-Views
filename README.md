@@ -18,7 +18,7 @@ This landmark will be fed into Google's Gemini ML model to get a fact about the 
 The fact will then be processed by ARKit and RealityKit, Apple's frameworks for creating AR objects. 
 These objects will then be displayed to the user as AR text.
 
-![Views Architecture]()
+![Views Architecture](views-arch.png)
 
 ## How To Use
 
