@@ -50,9 +50,16 @@ Demo will be available soon.
 1. Download the project and open on Xcode.
 2. Follow [this guide](https://developer.apple.com/documentation/xcode/running-your-app-in-simulator-or-on-a-device) to set up development on your iOS device as you cannot run this app on the Xcode simulator.
 3. Follow [this guide](https://developer.apple.com/documentation/arkit/verifying_device_support_and_user_permission#) to allow camera access for ARKit app to run.
-4. On Xcode select your device to run the project on (Make sure your device is connected via a wire to your computer).
-5. Click the "Run" button or do `CMD + R`.
-6. Open the app on your iOS device and use.
+4. Follow [this guide](https://cloud.google.com/vision/docs/detecting-landmarks) on setting up the Google Vision API. Under "Landmark Detection Requests" the setup is explained. You will need an API Key. This can be setup with these instructions.
+5. Follow [this guide](https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=swift) on setting up for Gemini AI Model. You will need an API Key. This can be setup with the these instructions.
+6. Replace the following variables within the `ContentView.swift` file with the API keys created
+   ```
+   let GOOGLE_API_KEY = ""
+   let GEMINI_API_KEY = ""
+   ```
+8. On Xcode select your device to run the project on (Make sure your device is connected via a wire to your computer).
+9. Click the "Run" button or do `CMD + R`.
+10. Open the app on your iOS device and use.
 
 
 #
